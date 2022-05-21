@@ -22,25 +22,31 @@ public class FollowPath : MonoBehaviour
        currentNode = wps[0];
     }
 
+    //função publica para chamar ao clicar no botão
     public void GoToHeli()
     {
+        //move para o ponto perto do heliporto
         g.AStar(currentNode, wps[1]);
         currentWP = 0;
     }
-
+    //função publica para chamar ao clicar no botão
     public void GoToRuin()
     {
+        //move para o ponto perto das ruinas
         g.AStar(currentNode, wps[6]);
         currentWP = 0;
     }
-    public void GoToRefinery()
+    //função publica para chamar ao clicar no botão
+    public void GoToFactory()
     {
+        //move para o ponto perto da fabrica
         g.AStar(currentNode, wps[8]);
         currentWP = 0;
     }
 
     void LateUpdate()
     {
+        
         if (g.getPathLength() == 0 || currentWP == g.getPathLength())
         {
             return;
