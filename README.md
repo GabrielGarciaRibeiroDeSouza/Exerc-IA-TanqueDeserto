@@ -1,7 +1,7 @@
 # Exerc-IA-TanqueDeserto
 <p>Exercício individual para a matéria de inteligência artificial
 
-<p>Demonstração do funcionamento no youtube:
+<p>Demonstração do funcionamento no youtube: https://youtu.be/_K9j66hMlMU
 
 <p>***PARTE 1*** 
 
